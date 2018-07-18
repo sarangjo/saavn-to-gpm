@@ -1,0 +1,56 @@
+{
+  "id": "f8ecbd0e-af6a-412f-9e7e-025b5a752fa7",
+  "name": "Untitled Project",
+  "url": "https://play.google.com",
+  "tests": [{
+    "id": "6f393303-e98f-4a7e-970e-ca4841299211",
+    "name": "Saavn to GPM",
+    "commands": [{
+      "id": "79a0b05d-2a51-46d7-bd69-c0a57d99b13f",
+      "comment": "",
+      "command": "open",
+      "target": "/music/listen",
+      "value": ""
+    }, {
+      "id": "7a6e8c59-ccc0-4f3b-8da3-af271cfe5449",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=input",
+      "value": "121,22"
+    }, {
+      "id": "c3f898a8-7691-4b81-a0f0-64f26986b83b",
+      "comment": "",
+      "command": "type",
+      "target": "id=input",
+      "value": "lmao"
+    }, {
+      "id": "0925773e-552e-4fb4-85cd-4fd29d5b02f1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=input",
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b2d061af-9517-4fcb-879d-8da8660f029e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=(//iron-icon[@id='icon'])[23]",
+      "value": "10,-574"
+    }, {
+      "id": "9cce6aff-f651-4e5b-86cb-1acda5c95e8f",
+      "comment": "",
+      "command": "clickAt",
+      "target": "//div[@id=':28']/div",
+      "value": "526,247"
+    }]
+  }],
+  "suites": [{
+    "id": "02ef0d03-d107-45e4-a71e-8e5a0c43fd55",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6f393303-e98f-4a7e-970e-ca4841299211"]
+  }],
+  "urls": ["https://play.google.com/"],
+  "plugins": [],
+  "version": "1.0"
+}
